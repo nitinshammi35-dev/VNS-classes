@@ -157,7 +157,7 @@ Empowering line
   <img src="banner.jpg" alt="Coaching Banner" class="hero-banner" onerror="this.src='https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80'">
 
   <div class="header-box">
-    <h1>लक्ष्य करियर इंस्टीट्यूट</h1>
+    <h1>V.N.S Coaching Classes</h1>
     <p>Enroll Today to claim your Free 3-day demo session!</p>
     <h2>Available dates </h2>
     <p>1-07-2026 to 3-07-2026</p>
