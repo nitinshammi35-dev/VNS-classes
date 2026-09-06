@@ -1,5 +1,5 @@
 # VNS-classes
-<!DOCTYPE html>
+VNS CLASSES
 <html lang="hi">
 <head>
   <meta charset="UTF-8">
