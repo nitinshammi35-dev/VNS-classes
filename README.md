@@ -1,10 +1,9 @@
-# VNS-classes
-Empowering line 
+<!DOCTYPE html>
 <html lang="hi">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>COACHING DASHBOARD | VNS </title>
+  <title>कोचिंग डैशबोर्ड | लक्ष्य इंस्टीट्यूट</title>
   <style>
     :root {
       --primary: #0f172a;
@@ -28,7 +27,6 @@ Empowering line
       padding-bottom: 80px;
     }
 
-    /* टॉप हीरो व बैनर */
     .hero-banner {
       width: 100%;
       height: 180px;
@@ -64,96 +62,66 @@ Empowering line
       padding: 0 16px;
     }
 
-    /* डैशबोर्ड स्टेट्स ग्रिड */
-    .stats-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 10px;
-      margin-bottom: 16px;
-    }
-
-    .stat-card {
-      background: var(--card);
-      padding: 12px 6px;
-      border-radius: 10px;
-      text-align: center;
-      border: 1px solid #e2e8f0;
-    }
-
-    .stat-card .number {
-      font-size: 1.2rem;
-      font-weight: 800;
-      color: var(--accent);
-    }
-
-    .stat-card .label {
-      font-size: 0.75rem;
-      color: #64748b;
-      margin-top: 2px;
-    }
-
-    /* डैशबोर्ड कार्ड */
     .card {
       background: var(--card);
       border-radius: 12px;
-      padding: 16px;
+      padding: 18px;
       margin-bottom: 16px;
       border: 1px solid #e2e8f0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.03);
     }
 
     .card h2 {
       font-size: 1.1rem;
       color: var(--primary);
-      margin-bottom: 12px;
+      margin-bottom: 14px;
       display: flex;
       align-items: center;
       gap: 8px;
     }
 
-    /* कोर्स ग्रिड */
-    .course-list {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
+    /* फॉर्म स्टाइलिंग */
+    .form-group {
+      margin-bottom: 12px;
     }
 
-    .course-item {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px;
-      background: #f8fafc;
-      border-radius: 8px;
-      border-left: 3px solid var(--accent);
-    }
-
-    .course-item span {
+    .form-group label {
+      display: block;
+      font-size: 0.85rem;
       font-weight: 600;
-      font-size: 0.9rem;
+      margin-bottom: 5px;
+      color: #475569;
     }
 
-    .badge-status {
-      background: #dcfce7;
-      color: #166534;
-      font-size: 0.75rem;
-      padding: 3px 8px;
-      border-radius: 12px;
-      font-weight: bold;
-    }
-
-    /* फ़ोटो गैलरी */
-    .gallery-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 10px;
-    }
-
-    .gallery-grid img {
+    .form-control {
       width: 100%;
-      height: 110px;
-      object-fit: cover;
+      padding: 10px 12px;
+      border: 1px solid #cbd5e1;
       border-radius: 8px;
-      background: #e2e8f0;
+      font-size: 0.95rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .form-control:focus {
+      border-color: var(--accent);
+    }
+
+    .btn-submit {
+      width: 100%;
+      background: var(--accent);
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 1rem;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 6px;
+    }
+
+    .btn-submit:hover {
+      background: #1d4ed8;
     }
 
     /* क्विक एक्शन बार */
@@ -186,72 +154,67 @@ Empowering line
 </head>
 <body>
 
-  <!-- टॉप बैनर इमेज (GitHub पर banner.jpg अपलोड करें) -->
   <img src="banner.jpg" alt="Coaching Banner" class="hero-banner" onerror="this.src='https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80'">
 
   <div class="header-box">
     <h1>लक्ष्य करियर इंस्टीट्यूट</h1>
-    <p>गुणवत्तापूर्ण शिक्षा, बेहतर परिणाम</p>
+    <p>एडमिशन व फ्री डेमो क्लास के लिए नीचे फॉर्म भरें</p>
   </div>
 
   <div class="container">
 
-    <!-- डैशबोर्ड आंकड़े (Stats) -->
-    <div class="stats-grid">
-      <div class="stat-card">
-        <div class="number">7+</div>
-        <div class="label">वर्षों का अनुभव</div>
-      </div>
-      <div class="stat-card">
-        <div class="number">91%+</div>
-        <div class="label">सर्वश्रेष्ठ रिज़ल्ट</div>
-      </div>
-      <div class="stat-card">
-        <div class="number">15</div>
-        <div class="label">छात्र प्रति बैच</div>
-      </div>
-    </div>
-
-    <!-- उपलब्ध कोर्सेस -->
+    <!-- डेटा कलेक्शन फॉर्म कार्ड -->
     <div class="card">
-      <h2>📚 उपलब्ध बैच एवं सीटें</h2>
-      <div class="course-list">
-        <div class="course-item">
-          <span> Class 10 (Science & Maths)</span>
-          <span class="badge-status">एडमिशन ओपन</span>
+      <h2>📝 एडमिशन / फ्री डेमो क्लास फॉर्म</h2>
+      
+      <!-- Formspree Endpoint: अपनी फॉर्म आईडी यहाँ डालें -->
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        
+        <div class="form-group">
+          <label for="student_name">विद्यार्थी का नाम</label>
+          <input type="text" id="student_name" name="name" class="form-control" placeholder="उदा. राहुल शर्मा" required>
         </div>
-        <div class="course-item">
-          <span>कक्षा 11 ( Physics )</span>
-          <span class="badge-status">सीमित सीटें</span>
-        </div>
-      </div>
-    </div>
 
-    <!-- क्लासरूम / फैकल्टी गैलरी -->
-    <div class="card">
-      <h2>📸 क्लासरूम व एक्टिविटीज</h2>
-      <div class="gallery-grid">
-        <!-- यहाँ अपनी फ़ोटो के नाम डालें जैसे classroom1.jpg, teacher.jpg -->
-        <img src="classroom1.jpg" alt="Classroom" onerror="this.src='https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=400&q=80'">
-        <img src="classroom2.jpg" alt="Lab/Library" onerror="this.src='https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=400&q=80'">
-      </div>
+        <div class="form-group">
+          <label for="phone">मोबाइल नंबर (WhatsApp)</label>
+          <input type="tel" id="phone" name="phone" class="form-control" placeholder="10 अंकों का नंबर" pattern="[0-9]{10}" required>
+        </div>
+
+        <div class="form-group">
+          <label for="course">कक्षा / कोर्स चुनें</label>
+          <select id="course" name="course" class="form-control" required>
+            <option value="">-- कोर्स चुनें --</option>
+            <option value="Class 9-10">कक्षा 9 - 10 (Maths & Science)</option>
+            <option value="Class 11-12 PCM">कक्षा 11 - 12 (PCM)</option>
+            <option value="Class 11-12 PCB">कक्षा 11 - 12 (PCB)</option>
+            <option value="JEE/NEET">JEE / NEET फाउंडेशन</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">कोई प्रश्न या संदेश (वैकल्पिक)</label>
+          <textarea id="message" name="message" class="form-control" rows="2" placeholder="अपनी आवश्यकता बताएं..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">सबमिट करें</button>
+      </form>
     </div>
 
     <!-- पता और समय -->
     <div class="card">
-      <h2>📍 Address </h2>
-      <p style="font-size: 0.9rem; line-height: 1.4;">
-        Akash Nagar, Ghaziabad, Gali no- 3。<br>
-        <strong>समय:</strong> सुबह 4:00 PM से शाम 8:30 PM
+      <h2>📍 संपर्क व पता</h2>
+      <p style="font-size: 0.9rem; line-height: 1.5;">
+        <strong>पता:</strong> मेन मार्केट, बस स्टैंड के पास<br>
+        <strong>समय:</strong> सुबह 8:00 AM से शाम 7:30 PM
       </p>
     </div>
 
   </div>
 
-  <!-- क्विक बटन -->
+  <!-- क्विक एक्शन बार -->
   <div class="action-bar">
-    <a href="tel:+918810220805" class="btn btn-call">📞 कॉल करें</a>
-    <a href="https://wa.me/8810220805?text=नमस्ते,%20मुझे%20एडमिशन%20की%20जानकारी%20चाहिए।" class="btn btn-wa">💬 व्हाट्सएप</a>
+    <a href="tel:+919876543210" class="btn btn-call">📞 कॉल करें</a>
+    <a href="https://wa.me/919876543210?text=नमस्ते,%20मुझे%20एडमिशन%20की%20जानकारी%20चाहिए।" class="btn btn-wa">💬 व्हाट्सएप</a>
   </div>
 
 </body>
