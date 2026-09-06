@@ -167,46 +167,46 @@ Empowering line
 
     <!-- डेटा कलेक्शन फॉर्म कार्ड -->
     <div class="card">
-      <h2>📝 एडमिशन / फ्री डेमो क्लास फॉर्म</h2>
+      <h2>📝 Admission / Free Demo Classes form</h2>
       
       <!-- Formspree Endpoint: अपनी फॉर्म आईडी यहाँ डालें -->
       <form action="https://formspree.io/f/maeydkyz" method="POST">
         <div class="form-group">
-          <label for="student_name">विद्यार्थी का नाम</label>
-          <input type="text" id="student_name" name="name" class="form-control" placeholder="उदा. राहुल शर्मा" required>
+          <label for="student_name">Student Name</label>
+          <input type="text" id="student_name" name="name" class="form-control" placeholder="Rahul Sharma" required>
         </div>
 
         <div class="form-group">
-          <label for="phone">मोबाइल नंबर (WhatsApp)</label>
-          <input type="tel" id="phone" name="phone" class="form-control" placeholder="10 अंकों का नंबर" pattern="[0-9]{10}" required>
+          <label for="phone">Mobile Number (WhatsApp)</label>
+          <input type="tel" id="phone" name="phone" class="form-control" placeholder="10 Digit Number" pattern="[0-9]{10}" required>
         </div>
 
         <div class="form-group">
-          <label for="course">कक्षा / कोर्स चुनें</label>
+          <label for="course">Class / Select Course</label>
           <select id="course" name="course" class="form-control" required>
-            <option value="">-- कोर्स चुनें --</option>
-            <option value="Class 9">कक्षा 9 (Maths/Science)</option>
-            <option value="Class 10">कक्षा 10 (Maths/Science)</option>
-            <option value="Class 11 PCM">कक्षा 11 (Physics only)</option>
-            <option value="Class 12 PCM">कक्षा 12 (Physics only)</option>
+            <option value="">-- Select Course --</option>
+            <option value="Class 9">Class 9 (Maths/Science)</option>
+            <option value="Class 10">Class 10 (Maths/Science)</option>
+            <option value="Class 11 PCM">Class 11 (Physics only)</option>
+            <option value="Class 12 PCM">Class 12 (Physics only)</option>
           </select>
         </div>
 
         <div class="form-group">
           <label for="message">कोई प्रश्न या संदेश (वैकल्पिक)</label>
-          <textarea id="message" name="message" class="form-control" rows="2" placeholder="अपनी आवश्यकता बताएं..."></textarea>
+          <textarea id="message" name="message" class="form-control" rows="2" placeholder="Enter your suggessions..."></textarea>
         </div>
 
-        <button type="submit" class="btn-submit">सबमिट करें</button>
+        <button type="submit" class="btn-submit">Submit</button>
       </form>
     </div>
 
     <!-- पता और समय -->
     <div class="card">
-      <h2>📍 संपर्क व पता</h2>
+      <h2>📍 Contact & Address </h2>
       <p style="font-size: 0.9rem; line-height: 1.5;">
-        <strong>पता:</strong> मेन मार्केट, बस स्टैंड के पास<br>
-        <strong>समय:</strong> सुबह 8:00 AM से शाम 7:30 PM
+        <strong>Address:</strong> Akash Nagar,Near Tyagi hostel,Gali No 3<br>
+        <strong>Time:</strong> 4:00 AM to 8:30 PM
       </p>
     </div>
 
