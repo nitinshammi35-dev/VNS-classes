@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+Empowering line 
 <html lang="hi">
 <head>
   <meta charset="UTF-8">
@@ -158,7 +158,9 @@
 
   <div class="header-box">
     <h1>लक्ष्य करियर इंस्टीट्यूट</h1>
-    <p>एडमिशन व फ्री डेमो क्लास के लिए नीचे फॉर्म भरें</p>
+    <p>Enroll Today to claim your Free 3-day demo session!</p>
+    <h2>Available dates </h2>
+    <p>1-07-2026 to 3-07-2026</p>
   </div>
 
   <div class="container">
