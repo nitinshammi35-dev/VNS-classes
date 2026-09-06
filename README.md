@@ -193,7 +193,7 @@ Empowering line
         </div>
 
         <div class="form-group">
-          <label for="message">कोई प्रश्न या संदेश (वैकल्पिक)</label>
+          <label for="message">Any questions or suggessions (Optional)</label>
           <textarea id="message" name="message" class="form-control" rows="2" placeholder="Enter your suggessions..."></textarea>
         </div>
 
