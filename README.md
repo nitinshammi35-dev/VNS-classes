@@ -211,6 +211,11 @@ Empowering line
     </div>
 
   </div>
+<!-- नेविगेशन बार या बटन के रूप में -->
+<div style="text-align: center; margin: 15px 0;">
+  <a href="about.html" style="margin: 0 10px; color: #2563eb; font-weight: bold; text-decoration: none;">हमारे बारे में</a> 
+  <a href="courses.html" style="margin: 0 10px; color: #2563eb; font-weight: bold; text-decoration: none;">सभी कोर्सेज</a>
+</div>
 
   <!-- क्विक एक्शन बार -->
   <div class="action-bar">
