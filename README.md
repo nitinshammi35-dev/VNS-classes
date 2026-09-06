@@ -4,7 +4,7 @@ VNS CLASSES
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>कोचिंग डैशबोर्ड | लक्ष्य इंस्टीट्यूट</title>
+  <title>COACHING DASHBOARD | VNS CLASSES</title>
   <style>
     :root {
       --primary: #0f172a;
