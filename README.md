@@ -184,10 +184,10 @@
           <label for="course">कक्षा / कोर्स चुनें</label>
           <select id="course" name="course" class="form-control" required>
             <option value="">-- कोर्स चुनें --</option>
-            <option value="Class 9-10">कक्षा 9 - 10 (Maths & Science)</option>
-                        <option value="Class 9-10">कक्षा 9 - 10 (Maths & Science)</option>
-
-            <option value="Class 11-12 PCM">कक्षा 11 - 12 (PCM)</option>
+            <option value="Class 9">कक्षा 9 (Maths & Science)</option>
+            <option value="Class 10">कक्षा 10 (Maths & Science)</option>
+            <option value="Class 11 PCM">कक्षा 11 (Physics only)</option>
+            <option value="Class 12 PCM">कक्षा 12 (Physics only)</option>
           </select>
         </div>
 
