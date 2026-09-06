@@ -185,9 +185,9 @@
           <select id="course" name="course" class="form-control" required>
             <option value="">-- कोर्स चुनें --</option>
             <option value="Class 9-10">कक्षा 9 - 10 (Maths & Science)</option>
+                        <option value="Class 9-10">कक्षा 9 - 10 (Maths & Science)</option>
+
             <option value="Class 11-12 PCM">कक्षा 11 - 12 (PCM)</option>
-            <option value="Class 11-12 PCB">कक्षा 11 - 12 (PCB)</option>
-            <option value="JEE/NEET">JEE / NEET फाउंडेशन</option>
           </select>
         </div>
 
