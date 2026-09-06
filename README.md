@@ -1,5 +1,5 @@
 # VNS-classes
-VNS CLASSES
+Empowering line 
 <html lang="hi">
 <head>
   <meta charset="UTF-8">
@@ -199,15 +199,15 @@ VNS CLASSES
     <!-- डैशबोर्ड आंकड़े (Stats) -->
     <div class="stats-grid">
       <div class="stat-card">
-        <div class="number">10+</div>
+        <div class="number">7+</div>
         <div class="label">वर्षों का अनुभव</div>
       </div>
       <div class="stat-card">
-        <div class="number">95%+</div>
+        <div class="number">91%+</div>
         <div class="label">सर्वश्रेष्ठ रिज़ल्ट</div>
       </div>
       <div class="stat-card">
-        <div class="number">20</div>
+        <div class="number">15</div>
         <div class="label">छात्र प्रति बैच</div>
       </div>
     </div>
@@ -217,16 +217,12 @@ VNS CLASSES
       <h2>📚 उपलब्ध बैच एवं सीटें</h2>
       <div class="course-list">
         <div class="course-item">
-          <span>कक्षा 9 - 10 (Science & Maths)</span>
+          <span> Class 10 (Science & Maths)</span>
           <span class="badge-status">एडमिशन ओपन</span>
         </div>
         <div class="course-item">
-          <span>कक्षा 11 - 12 (PCM / PCB)</span>
+          <span>कक्षा 11 ( Physics )</span>
           <span class="badge-status">सीमित सीटें</span>
-        </div>
-        <div class="course-item">
-          <span>JEE / NEET फाउंडेशन</span>
-          <span class="badge-status">नया बैच</span>
         </div>
       </div>
     </div>
@@ -243,10 +239,10 @@ VNS CLASSES
 
     <!-- पता और समय -->
     <div class="card">
-      <h2>📍 सेंटर का पता</h2>
+      <h2>📍 Address </h2>
       <p style="font-size: 0.9rem; line-height: 1.4;">
-        प्लॉट नं. 24, मुख्य बाजार, बस स्टैंड के पास。<br>
-        <strong>समय:</strong> सुबह 8:00 AM से शाम 7:30 PM
+        Akash Nagar, Ghaziabad, Gali no- 3。<br>
+        <strong>समय:</strong> सुबह 4:00 PM से शाम 8:30 PM
       </p>
     </div>
 
@@ -254,8 +250,8 @@ VNS CLASSES
 
   <!-- क्विक बटन -->
   <div class="action-bar">
-    <a href="tel:+919876543210" class="btn btn-call">📞 कॉल करें</a>
-    <a href="https://wa.me/919876543210?text=नमस्ते,%20मुझे%20एडमिशन%20की%20जानकारी%20चाहिए।" class="btn btn-wa">💬 व्हाट्सएप</a>
+    <a href="tel:+918810220805" class="btn btn-call">📞 कॉल करें</a>
+    <a href="https://wa.me/8810220805?text=नमस्ते,%20मुझे%20एडमिशन%20की%20जानकारी%20चाहिए।" class="btn btn-wa">💬 व्हाट्सएप</a>
   </div>
 
 </body>
