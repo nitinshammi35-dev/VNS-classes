@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>लक्ष्य कोचिंग क्लासेज | Bright Future Ahead</title>
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --accent: #2563eb;
+      --success: #16a34a;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #1e293b;
+      --muted: #64748b;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding-bottom: 70px;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      color: white;
+      text-align: center;
+      padding: 30px 15px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      font-size: 0.95rem;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px 16px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 16px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.08);
+    }
+
+    .card h2 {
+      font-size: 1.2rem;
+      color: var(--primary);
+      margin-bottom: 12px;
+      border-left: 4px solid var(--accent);
+      padding-left: 8px;
+    }
+
+    .badge-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+
+    .badge-item {
+      background: #eff6ff;
+      border: 1px solid #dbeafe;
+      padding: 10px;
+      border-radius: 8px;
+      text-align: center;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--accent);
+    }
+
+    ul.features-list {
+      list-style: none;
+    }
+
+    ul.features-list li {
+      margin-bottom: 8px;
+      font-size: 0.95rem;
+      position: relative;
+      padding-left: 20px;
+    }
+
+    ul.features-list li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: var(--success);
+    }
+
+    .contact-item {
+      margin-bottom: 10px;
+      font-size: 0.95rem;
+    }
+
+    .contact-item strong {
+      display: block;
+      color: var(--muted);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+    }
+
+    .action-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: white;
+      display: flex;
+      gap: 10px;
+      padding: 12px 16px;
+      box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+      z-index: 100;
+    }
+
+    .btn {
+      flex: 1;
+      text-align: center;
+      padding: 12px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      font-size: 0.95rem;
+    }
+
+    .btn-call {
+      background-color: var(--primary);
+      color: white;
+    }
+
+    .btn-whatsapp {
+      background-color: var(--success);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>लक्ष्य करियर इंस्टीट्यूट</h1>
+    <p>कक्षा 9वीं से 12वीं एवं प्रतियोगी परीक्षाओं की तैयारी</p>
+  </header>
+
+  <div class="container">
+    
+    <div class="card">
+      <h2>उपलब्ध कोर्सेस</h2>
+      <div class="badge-grid">
+        <div class="badge-item">कक्षा 9 - 10 (Maths, Sci)</div>
+        <div class="badge-item">कक्षा 11 - 12 (PCM / PCB)</div>
+        <div class="badge-item">JEE / NEET फाउंडेशन</div>
+        <div class="badge-item">क्रैश कोर्स & रिवीजन</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>हमारी विशेषताएं</h2>
+      <ul class="features-list">
+        <li>सीमित छात्र प्रति बैच (व्यक्तिगत ध्यान)</li>
+        <li>साप्ताहिक टेस्ट और प्रदर्शन विश्लेषण</li>
+        <li>डाउट सॉल्विंग के लिए अलग से सत्र</li>
+        <li>मुफ्त स्टडी मटेरियल और फॉर्मूला शीट्स</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>नए बैच व एडमिशन</h2>
+      <p style="font-size: 0.95rem; margin-bottom: 8px;">
+        <strong>नया बैच शुरू:</strong> अगले सोमवार से
+      </p>
+      <p style="font-size: 0.9rem; color: var(--success); font-weight: bold;">
+        ★ शुरुआती 20 छात्रों के लिए विशेष 20% छूट उपलब्ध
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>संस्थान का पता</h2>
+      <div class="contact-item">
+        <strong>स्थान</strong>
+        प्लॉट नं. 12, मेन मार्केट, नजदीकी मेट्रो/बस स्टैंड
+      </div>
+      <div class="contact-item">
+        <strong>समय</strong>
+        सुबह 8:00 AM से शाम 7:00 PM तक
+      </div>
+    </div>
+
+  </div>
+
+  <div class="action-bar">
+    <a href="tel:+919876543210" class="btn btn-call">📞 कॉल करें</a>
+    <a href="https://wa.me/919876543210?text=नमस्ते,%20मुझे%20कोचिंग%20एडमिशन%20के%20बारे%20में%20जानकारी%20चाहिए।" class="btn btn-whatsapp">💬 व्हाट्सएप</a>
+  </div>
+
+</body>
+</html>
