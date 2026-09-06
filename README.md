@@ -168,8 +168,7 @@
       <h2>📝 एडमिशन / फ्री डेमो क्लास फॉर्म</h2>
       
       <!-- Formspree Endpoint: अपनी फॉर्म आईडी यहाँ डालें -->
-      <form action="[https://formspree.io/forms](https://formspree.io/f/maeydkyz)" method="POST">
-        
+      <form action="https://formspree.io/f/maeydkyz" method="POST">
         <div class="form-group">
           <label for="student_name">विद्यार्थी का नाम</label>
           <input type="text" id="student_name" name="name" class="form-control" placeholder="उदा. राहुल शर्मा" required>
