@@ -159,7 +159,7 @@ Empowering line
   <div class="header-box">
     <h1>V.N.S Coaching Classes</h1>
     <p>Enroll Today to claim your Free 3-day demo session!</p>
-    <h2>Available dates </h2>
+    <h2>Free Trial </h2>
     <p>1-07-2026 to 3-07-2026</p>
   </div>
 
