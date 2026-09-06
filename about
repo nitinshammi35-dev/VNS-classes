@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>हमारे बारे में | लक्ष्य कोचिंग</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; background: #f8fafc; color: #333; line-height: 1.6; }
+    .card { background: white; padding: 20px; border-radius: 10px; max-width: 500px; margin: 0 auto; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    h1 { color: #0f172a; }
+    a.back-btn { display: inline-block; margin-top: 15px; text-decoration: none; color: #2563eb; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>हमारे बारे में (About Us)</h1>
+    <p>लक्ष्य करियर इंस्टीट्यूट पिछले 10 वर्षों से विद्यार्थियों को उत्कृष्ट मार्गदर्शन प्रदान कर रहा है।</p>
+    <p>यहाँ व्यक्तिगत ध्यान, वीकली टेस्ट और डाउट सेशन्स की सुविधा उपलब्ध है।</p>
+    <a href="index.html" class="back-btn">← मुख्य पेज पर वापस जाएं</a>
+  </div>
+</body>
+</html>
