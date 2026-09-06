@@ -214,8 +214,8 @@ Empowering line
 
   <!-- क्विक एक्शन बार -->
   <div class="action-bar">
-    <a href="tel:+919876543210" class="btn btn-call">📞 कॉल करें</a>
-    <a href="https://wa.me/919876543210?text=नमस्ते,%20मुझे%20एडमिशन%20की%20जानकारी%20चाहिए।" class="btn btn-wa">💬 व्हाट्सएप</a>
+    <a href="tel:+918810220805" class="btn btn-call">📞 कॉल करें</a>
+    <a href="https://wa.me/918810220805?text=नमस्ते,%20मुझे%20एडमिशन%20की%20जानकारी%20चाहिए।" class="btn btn-wa">💬 व्हाट्सएप</a>
   </div>
 
 </body>
