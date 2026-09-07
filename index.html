@@ -1,133 +1,189 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-  <!-- SEO Meta Tags -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>लक्ष्य कोचिंग क्लासेज | Bright Future Ahead</title>
+  <title>कोर्स प्रीव्यू | लक्ष्य करियर इंस्टीट्यूट</title>
   <style>
     :root {
-      --primary: #1e3a8a;
+      --primary: #0f172a;
       --accent: #2563eb;
-      --success: #16a34a;
-      --bg: #f8fafc;
-      --card-bg: #ffffff;
-      --text: #1e293b;
-      --muted: #64748b;
+      --card: #ffffff;
+      --bg: #f1f5f9;
+      --text: #334155;
+      --highlight: #10b981;
     }
 
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     }
 
     body {
-      background-color: var(--bg);
+      background: var(--bg);
       color: var(--text);
-      line-height: 1.5;
-      padding-bottom: 70px;
+      padding-bottom: 85px;
     }
 
-    header {
-      background: linear-gradient(135deg, var(--primary), var(--accent));
-      color: white;
+    .hero-banner {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+      background-color: #cbd5e1;
+    }
+
+    .header-box {
+      background: var(--card);
+      padding: 16px;
+      margin: -25px 16px 16px 16px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      position: relative;
       text-align: center;
-      padding: 30px 15px;
-      border-bottom-left-radius: 20px;
-      border-bottom-right-radius: 20px;
     }
 
-    header h1 {
-      font-size: 1.8rem;
-      margin-bottom: 8px;
+    .header-box h1 {
+      font-size: 1.4rem;
+      color: var(--primary);
     }
 
-    header p {
-      font-size: 0.95rem;
-      opacity: 0.9;
+    .header-box p {
+      font-size: 0.85rem;
+      color: #64748b;
+      margin-top: 4px;
     }
 
     .container {
-      max-width: 500px;
+      max-width: 520px;
       margin: 0 auto;
-      padding: 20px 16px;
+      padding: 0 16px;
     }
 
-    .card {
-      background: var(--card-bg);
-      border-radius: 12px;
-      padding: 16px;
-      margin-bottom: 16px;
-      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.08);
-    }
-
-    .card h2 {
-      font-size: 1.2rem;
-      color: var(--primary);
-      margin-bottom: 12px;
-      border-left: 4px solid var(--accent);
-      padding-left: 8px;
-    }
-
-    .badge-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 10px;
-    }
-
-    .badge-item {
-      background: #eff6ff;
-      border: 1px solid #dbeafe;
-      padding: 10px;
-      border-radius: 8px;
-      text-align: center;
-      font-size: 0.9rem;
-      font-weight: 600;
+    .nav-back {
+      display: inline-block;
+      margin-bottom: 14px;
       color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
     }
 
-    ul.features-list {
-      list-style: none;
+    /* कोर्स प्रीव्यू कार्ड */
+    .preview-card {
+      background: var(--card);
+      border-radius: 12px;
+      margin-bottom: 16px;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+      overflow: hidden;
     }
 
-    ul.features-list li {
-      margin-bottom: 8px;
-      font-size: 0.95rem;
-      position: relative;
-      padding-left: 20px;
-    }
-
-    ul.features-list li::before {
-      content: "✔";
-      position: absolute;
-      left: 0;
-      color: var(--success);
-    }
-
-    .contact-item {
-      margin-bottom: 10px;
-      font-size: 0.95rem;
-    }
-
-    .contact-item strong {
+    .preview-card img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
       display: block;
-      color: var(--muted);
-      font-size: 0.8rem;
-      text-transform: uppercase;
+      background-color: #e2e8f0;
     }
 
+    .preview-body {
+      padding: 16px;
+    }
+
+    .preview-title {
+      font-size: 1.15rem;
+      color: var(--primary);
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .badge {
+      background: #eff6ff;
+      color: var(--accent);
+      font-size: 0.75rem;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-weight: 600;
+      border: 1px solid #bfdbfe;
+    }
+
+    .badge-target {
+      background: #fef2f2;
+      color: #dc2626;
+      border: 1px solid #fecaca;
+      font-size: 0.75rem;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+
+    .preview-desc {
+      font-size: 0.88rem;
+      color: #64748b;
+      line-height: 1.4;
+      margin-bottom: 12px;
+    }
+
+    .highlights {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 14px;
+    }
+
+    .highlight-pill {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      color: #475569;
+      font-size: 0.78rem;
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+
+    .preview-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px dashed #e2e8f0;
+      padding-top: 12px;
+    }
+
+    .fee-text {
+      font-size: 0.85rem;
+      color: #64748b;
+    }
+
+    .fee-text strong {
+      color: var(--primary);
+      font-size: 1rem;
+    }
+
+    .btn-details {
+      background: #eff6ff;
+      color: var(--accent);
+      text-decoration: none;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 0.82rem;
+      font-weight: 600;
+    }
+
+    /* क्विक एक्शन बार */
     .action-bar {
       position: fixed;
       bottom: 0;
       left: 0;
       width: 100%;
-      background: white;
+      background: var(--card);
       display: flex;
       gap: 10px;
       padding: 12px 16px;
-      box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 -3px 12px rgba(0,0,0,0.08);
       z-index: 100;
     }
 
@@ -136,78 +192,103 @@
       text-align: center;
       padding: 12px;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 700;
       border-radius: 8px;
-      font-size: 0.95rem;
+      font-size: 0.9rem;
     }
 
-    .btn-call {
-      background-color: var(--primary);
-      color: white;
-    }
-
-    .btn-whatsapp {
-      background-color: var(--success);
-      color: white;
-    }
+    .btn-call { background: var(--primary); color: white; }
+    .btn-wa { background: var(--highlight); color: white; }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>लक्ष्य करियर इंस्टीट्यूट</h1>
-    <p>कक्षा 9वीं से 12वीं एवं प्रतियोगी परीक्षाओं की तैयारी</p>
-  </header>
+  <!-- टॉप बैनर -->
+  <img src="banner.jpg" alt="Coaching Banner" class="hero-banner" onerror="this.src='https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80'">
+
+  <div class="header-box">
+    <h1>कोर्स प्रीव्यू & सिलेबस</h1>
+    <p>अपने लक्ष्य के अनुसार सही कोर्स चुनें</p>
+  </div>
 
   <div class="container">
-    
-    <div class="card">
-      <h2>उपलब्ध कोर्सेस</h2>
-      <div class="badge-grid">
-        <div class="badge-item">कक्षा 9 - 10 (Maths, Sci)</div>
-        <div class="badge-item">कक्षा 11 - 12 (PCM / PCB)</div>
-        <div class="badge-item">JEE / NEET फाउंडेशन</div>
-        <div class="badge-item">क्रैश कोर्स & रिवीजन</div>
+    <a href="index.html" class="nav-back">← होम पेज पर वापस जाएं</a>
+
+    <!-- कार्ड 1: क्लास 9-10 -->
+    <div class="preview-card">
+      <img src="course1.jpg" alt="Class 9 and 10" onerror="this.src='https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500&q=80'">
+      <div class="preview-body">
+        <div class="preview-title">
+          <span>कक्षा 9 - 10th (फाउंडेशन)</span>
+          <span class="badge">CBSE / State</span>
+        </div>
+        <p class="preview-desc">गणित और विज्ञान के मूल कॉन्सेप्ट्स को मजबूत बनाने के लिए विशेष बैच ताकि भविष्य में कॉम्पिटिटिव परीक्षाओं के लिए ठोस आधार तैयार हो सके।</p>
+        
+        <div class="highlights">
+          <span class="highlight-pill">✓ वीकली टेस्ट</span>
+          <span class="highlight-pill">✓ डाउट क्लासेज</span>
+          <span class="highlight-pill">✓ स्टडी मटेरियल</span>
+        </div>
+
+        <div class="preview-footer">
+          <div class="fee-text">सीटें: <strong>25 सीमित</strong></div>
+          <a href="https://wa.me/919876543210?text=नमस्ते,%20मुझे%20Class%209-10%20कोर्स%20के%20बारे%20में%20जानना%20है।" class="btn-details">इंक्वायरी करें →</a>
+        </div>
       </div>
     </div>
 
-    <div class="card">
-      <h2>हमारी विशेषताएं</h2>
-      <ul class="features-list">
-        <li>सीमित छात्र प्रति बैच (व्यक्तिगत ध्यान)</li>
-        <li>साप्ताहिक टेस्ट और प्रदर्शन विश्लेषण</li>
-        <li>डाउट सॉल्विंग के लिए अलग से सत्र</li>
-        <li>मुफ्त स्टडी मटेरियल और फॉर्मूला शीट्स</li>
-      </ul>
-    </div>
+    <!-- कार्ड 2: क्लास 11-12 PCM/PCB -->
+    <div class="preview-card">
+      <img src="course2.jpg" alt="Class 11 and 12" onerror="this.src='https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=500&q=80'">
+      <div class="preview-body">
+        <div class="preview-title">
+          <span>कक्षा 11 - 12th (PCM / PCB)</span>
+          <span class="badge">बोर्ड स्पेशल</span>
+        </div>
+        <p class="preview-desc">बोर्ड परीक्षा में 95%+ स्कोर करने के लिए थ्योरी, डेरिवेशन्स और न्यूमेरिकल्स की विशेष तैयारी। 10 वर्षों के पुराने पेपर्स का एनालिसिस।</p>
+        
+        <div class="highlights">
+          <span class="highlight-pill">✓ चैप्टरवाइज शीट्स</span>
+          <span class="highlight-pill">✓ फॉर्मूला बैंक</span>
+          <span class="highlight-pill">✓ मॉक बोर्ड्स</span>
+        </div>
 
-    <div class="card">
-      <h2>नए बैच व एडमिशन</h2>
-      <p style="font-size: 0.95rem; margin-bottom: 8px;">
-        <strong>नया बैच शुरू:</strong> अगले सोमवार से
-      </p>
-      <p style="font-size: 0.9rem; color: var(--success); font-weight: bold;">
-        ★ शुरुआती 20 छात्रों के लिए विशेष 20% छूट उपलब्ध
-      </p>
-    </div>
-
-    <div class="card">
-      <h2>संस्थान का पता</h2>
-      <div class="contact-item">
-        <strong>स्थान</strong>
-        प्लॉट नं. 12, मेन मार्केट, नजदीकी मेट्रो/बस स्टैंड
+        <div class="preview-footer">
+          <div class="fee-text">बैच: <strong>मॉर्निंग / इवनिंग</strong></div>
+          <a href="https://wa.me/919876543210?text=नमस्ते,%20मुझे%20Class%2011-12%20कोर्स%20के%20बारे%20में%20जानना%20है।" class="btn-details">इंक्वायरी करें →</a>
+        </div>
       </div>
-      <div class="contact-item">
-        <strong>समय</strong>
-        सुबह 8:00 AM से शाम 7:00 PM तक
+    </div>
+
+    <!-- कार्ड 3: JEE / NEET टारगेट -->
+    <div class="preview-card">
+      <img src="course3.jpg" alt="JEE NEET Target" onerror="this.src='https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&q=80'">
+      <div class="preview-body">
+        <div class="preview-title">
+          <span>JEE / NEET टारगेट बैच</span>
+          <span class="badge-target">टारगेट</span>
+        </div>
+        <p class="preview-desc">एनसीईआरटी आधारित गहन अध्ययन, शॉर्टकट ट्रिक्स और टाइम मैनेजमेंट स्ट्रेटेजी ताकि कॉम्पिटिटिव एग्जाम में बेहतर रैंक हासिल हो सके।</p>
+        
+        <div class="highlights">
+          <span class="highlight-pill">✓ ऑल इंडिया टेस्ट सीरीज</span>
+          <span class="highlight-pill">✓ डेली प्रैक्टिस प्रॉब्लम्स</span>
+          <span class="highlight-pill">✓ पर्सनल मेंटरशिप</span>
+        </div>
+
+        <div class="preview-footer">
+          <div class="fee-text">प्रवेश: <strong>टेस्ट आधारित</strong></div>
+          <a href="https://wa.me/919876543210?text=नमस्ते,%20मुझे%20JEE/NEET%20कोर्स%20के%20बारे%20में%20जानना%20है।" class="btn-details">इंक्वायरी करें →</a>
+        </div>
       </div>
     </div>
 
   </div>
 
+  <!-- क्विक एक्शन बार -->
   <div class="action-bar">
     <a href="tel:+919876543210" class="btn btn-call">📞 कॉल करें</a>
-    <a href="https://wa.me/919876543210?text=नमस्ते,%20मुझे%20कोचिंग%20एडमिशन%20के%20बारे%20में%20जानकारी%20चाहिए।" class="btn btn-whatsapp">💬 व्हाट्सएप</a>
+    <a href="https://wa.me/919876543210?text=नमस्ते,%20मुझे%20कोचिंग%20एडमिशन%20के%20बारे%20में%20जानकारी%20चाहिए।" class="btn btn-wa">💬 व्हाट्सएप</a>
   </div>
 
 </body>
