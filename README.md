@@ -3,7 +3,7 @@ Empowering line
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>कोचिंग डैशबोर्ड | लक्ष्य इंस्टीट्यूट</title>
+  <title>V.N.S CLASSES</title>
   <style>
     :root {
       --primary: #0f172a;
@@ -187,8 +187,7 @@ Empowering line
             <option value="">-- Select Course --</option>
             <option value="Class 9">Class 9 (Maths/Science)</option>
             <option value="Class 10">Class 10 (Maths/Science)</option>
-            <option value="Class 11 PCM">Class 11 (Physics only)</option>
-            <option value="Class 12 PCM">Class 12 (Physics only)</option>
+            <option value="Class 11">Class 11 (Physics only)</option>
           </select>
         </div>
 
@@ -219,7 +218,7 @@ Empowering line
 
   <!-- क्विक एक्शन बार -->
   <div class="action-bar">
-    <a href="tel:+918810220805" class="btn btn-call">📞 कॉल करें</a>
+    <a href="tel:+918810220805" class="btn btn-call">📞 Call us</a>
     <a href="https://wa.me/918810220805?text=नमस्ते,%20मुझे%20एडमिशन%20की%20जानकारी%20चाहिए।" class="btn btn-wa">💬 व्हाट्सएप</a>
   </div>
 
